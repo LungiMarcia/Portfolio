@@ -26,10 +26,10 @@
 }
 
 .banner-wrap {
-  background-image: url(./assets/banner3.jpg);
+  background-image: url(images/me.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top center;
   position: relative;
   z-index: 1;
 }
