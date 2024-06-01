@@ -40,7 +40,7 @@
   border-bottom-color: var(--tertiary-color);
 }
 
-.btn {
+.btn-branding {
   color: var(--tertiary-color);
   background: var(--secondary-color);
   border-radius: 4px;
