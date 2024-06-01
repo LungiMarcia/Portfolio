@@ -54,3 +54,34 @@
   padding: 20px 0 20px 20px;
   border-radius: 10px;
 }
+
+.contact {
+  background: var(--primary-color);
+  border-radius: 10px;
+  padding: 30px 120px;
+}
+
+.social-links a {
+  margin: 0 20px;
+  color: var(--tertiary-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 25px;
+  border-radius: 10px;
+  transition: all 150ms ease-in-out;
+}
+
+.social-links a:hover {
+  color: #4169e1;
+  background: var(--tertiary-color);
+}
+
+.email-link a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+  font-size: 24px;
+}
+
+.email-link a:hover {
+  color: #4169e1;
+}
