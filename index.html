@@ -15,16 +15,15 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="bg-light">
+  <body class="bg-dark">
     <header class="px-5 p-3 text-white fixed-top">
       <div>
         <h3 class="float-md-start text-center">Portfolio</h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#about-us">About</a>
+          <a class="nav-link" href=".about-me">About</a>
           <a class="nav-link" href="#projects">Projects</a>
           <a class="nav-link" href="#contact">Contact</a>
         </nav>
@@ -33,15 +32,39 @@
     <div
       class="banner-wrap vh-100 vw-100 d-flex align-items-center justify-content-center text-white"
     >
-      <div class="overlay"></div>
       <main class="text-center">
         <h1 class="display-1">I am Lungile Simelane.</h1>
-        <span id="typed" class="lead"
-          >Front-end Developer. Based in Pretoria, South Afica.</span
-        >
-        <span class="typed-cursor" aria-hidden="true">|</span>
+        <h3>Front-end Developer, based in South Afica.</h3>
+        <a href=".about-me" class="btn mt-5">Get to know me</a>
       </main>
     </div>
-    <sript src="script.js" />
+
+    ///About-me section///
+    <section class="about-me bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="images/lungile.jpg"
+              alt="Lungile Simelane Portrait"
+              class="img-fluid"
+              width="300"
+            />
+          </div>
+          <div class="col-md-6">
+            <div class="content">
+              <h1 class="text-white">About Me</h1>
+              <p class="text-white">
+                I am passionate about creating visually appealing and
+                user-friendly web applications. With a solid background in HTML,
+                CSS, and JavaScript, I strive to deliver high-quality projects
+                that meet clients' needs and exceed their expectations.
+              </p>
+              <a href=".projects" class="btn">See my projects</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

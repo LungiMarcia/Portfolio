@@ -1,28 +1,12 @@
-/*
- * Globals
- */
+:root {
+  --primary-color: rgba(255, 255, 255, 0.5);
+  --secondary-color: rgba(255, 255, 255, 0.25);
+  --tertiary-color: #fff;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-.gradient-background {
-  background: linear-gradient(300deg, #868686, #383838, #000000);
-  background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite;
-}
-
-@keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
 
 .banner-wrap {
@@ -34,27 +18,17 @@
   z-index: 1;
 }
 
-.overlay {
-  z-index: -1;
-  height: 100%;
-  width: 100%;
-  background: black;
-  opacity: 60%;
-  position: absolute;
-  top: 0;
-}
-
 .nav-masthead .nav-link {
   padding: 0.25rem 0;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--primary-color);
   background-color: transparent;
   border-bottom: 0.25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, 0.25);
+  border-bottom-color: var(--secondary-color);
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -62,12 +36,20 @@
 }
 
 .nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: var(--tertiary-color);
+  border-bottom-color: var(--tertiary-color);
 }
 
-.scrolling {
-  background: black;
-  opacity: 80%;
-  transition: all 0.5s;
+.btn {
+  color: var(--tertiary-color);
+  background: var(--secondary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.container {
+  background: var(--primary-color);
+  padding: 20px 0 20px 20px;
 }
