@@ -31,10 +31,12 @@
       <div>
         <h3 class="float-md-start text-center">Portfolio</h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#about-me">About</a>
-          <a class="nav-link" href="#projects">Projects</a>
-          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link active" aria-current="Homepage" href="#">Home</a>
+          <a class="nav-link" href="#about-me" title="About-page">About</a>
+          <a class="nav-link" href="#projects" title="Projects-page"
+            >Projects</a
+          >
+          <a class="nav-link" href="#contact" title="contact-page">Contact</a>
         </nav>
       </div>
     </header>
@@ -42,8 +44,10 @@
       class="banner-wrap vh-100 vw-100 d-flex align-items-center justify-content-center text-white"
     >
       <main class="text-center">
-        <h1 class="display-1">I am Lungile Simelane.</h1>
-        <h3>Front-end Developer, based in South Africa.</h3>
+        <h1 class="display-1" title="name">I am Lungile Simelane.</h1>
+        <h3 title="Developer-location">
+          Front-end Developer, based in South Africa.
+        </h3>
         <a href="#about-me" class="btn btn-branding mt-5">Get to know me</a>
       </main>
     </div>
@@ -57,13 +61,14 @@
               src="images/lungile.jpg"
               alt="Lungile Simelane Portrait"
               class="img-fluid"
+              title="developer-image"
               width="300"
             />
           </div>
           <div class="col-md-8">
             <div class="content">
-              <h1 class="text-white">About Me</h1>
-              <p class="text-white mb-5">
+              <h1 class="text-white" title="About-page">About Me</h1>
+              <p class="text-white mb-5" title="About-content">
                 Hello! I'm Lungile Simelane, a passionate front-end developer
                 based in Pretoria, South Africa. With a keen eye for design and
                 a strong foundation in coding, I specialize in creating visually
@@ -85,7 +90,7 @@
     <!-- Projects section -->
     <section id="projects" class="gradient-background py-5">
       <div class="container">
-        <h1 class="text-center text-white">Projects</h1>
+        <h1 class="text-center text-white" title="Projects-page">Projects</h1>
         <div class="row mt-5">
           <div class="col-md-4 mb-4">
             <div class="card h-100">
@@ -93,10 +98,11 @@
                 src="images/landing.png"
                 class="card-img-top"
                 alt="Landing Page Project"
+                title="Landing pade project image"
               />
               <div class="card-body">
                 <h5 class="card-title">Landing Page</h5>
-                <p class="card-text">
+                <p class="card-text" title="Landing page description">
                   This landing page project was built using the basics of HTML,
                   CSS, and JavaScript.
                 </p>
@@ -104,12 +110,14 @@
                   href="https://coffee-landing-page.netlify.app"
                   target="_blank"
                   class="btn btn-primary"
+                  title="landing page project link"
                   >View Project</a
                 >
                 <a
                   href="https://github.com/LungiMarcia/Landing_page"
                   target="_blank"
                   class="btn btn-primary"
+                  title="landing page project code"
                   >View Code</a
                 >
               </div>
@@ -121,10 +129,11 @@
                 src="images/weather.png"
                 class="card-img-top"
                 alt="Weather App Project"
+                title="weather app project image"
               />
               <div class="card-body">
                 <h5 class="card-title">Weather App</h5>
-                <p class="card-text">
+                <p class="card-text" title="weather app project description">
                   This Weather App project was built using HTML, CSS,
                   JavaScript, and API integration.
                 </p>
@@ -132,12 +141,14 @@
                   href="https://weatherwebsite-project.netlify.app"
                   target="_blank"
                   class="btn btn-primary"
+                  title="weather app project link"
                   >View Project</a
                 >
                 <a
                   href="https://github.com/LungiMarcia/Weather-App"
                   target="_blank"
                   class="btn btn-primary"
+                  title="weather app project code"
                   >View Code</a
                 >
               </div>
@@ -149,22 +160,25 @@
                 src="images/portfolio.png"
                 class="card-img-top"
                 alt="Portfolio Project"
+                title="Portfolio image"
               />
               <div class="card-body">
                 <h5 class="card-title">Portfolio</h5>
-                <p class="card-text">
+                <p class="card-text" title="portfolio description">
                   This portfolio was built using HTML, CSS, and Bootstrap.
                 </p>
                 <a
                   href="https://lungile-portfolio.netlify.app"
                   target="_blank"
                   class="btn btn-primary"
+                  title="Portfolio link"
                   >View Project</a
                 >
                 <a
                   href="https://github.com/LungiMarcia/Portfolio"
                   target="_blank"
                   class="btn btn-primary"
+                  title="Portfolio code"
                   >View Code</a
                 >
               </div>
@@ -181,7 +195,7 @@
     <section id="contact" class="bg-dark py-5">
       <div class="container">
         <h1 class="text-center text-white">Let's Connect</h1>
-        <p class="text-center text-white">
+        <p class="text-center text-white" title="Contact content">
           Whether you have a project idea or want to collaborate, feel free to
           reach out through the email below or connect via social media. Looking
           forward to connecting with you!
@@ -191,6 +205,7 @@
             href="https://github.com/LungiMarcia"
             target="_blank"
             aria-label="GitHub"
+            title="Lungile'GitHub profile"
             class="mx-2 text-white"
           >
             <i class="fa-brands fa-github"></i>
@@ -199,13 +214,18 @@
             href="https://linkedin.com/in/lungile-simelane-142972a5"
             target="_blank"
             aria-label="LinkedIn"
+            title="Lungile's LinkedIn profile"
             class="mx-2 text-white"
           >
             <i class="fa-brands fa-linkedin"></i>
           </a>
         </div>
         <div class="email-link text-center">
-          <a href="mailto:lungile.simelane4@gmail.com" class="text-white">
+          <a
+            href="mailto:lungile.simelane4@gmail.com"
+            title="Lungile's email"
+            class="text-white"
+          >
             <i class="fa-regular fa-envelope"></i> lungile.simelane4@gmail.com
           </a>
         </div>
@@ -219,6 +239,7 @@
           href="https://github.com/LungiMarcia/Portfolio"
           target="_blank"
           class="links"
+          title="Portfolio GitHub link"
           >GitHub</a
         >
         and hosted on
@@ -226,8 +247,9 @@
           href="https://lungile-portfolio.netlify.app"
           target="_blank"
           class="links"
+          title="Portfolio Netlify link"
           >Netlify</a
-        >.
+        >
       </p>
     </footer>
   </body>
