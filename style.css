@@ -86,8 +86,7 @@
 }
 
 footer {
-  padding: 30px;
-  height: 5px;
+  padding: 20px;
 }
 
 footer a {
@@ -96,4 +95,10 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  footer {
+    padding: 40px;
+  }
 }
