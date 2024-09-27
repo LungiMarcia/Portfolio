@@ -102,3 +102,58 @@ footer a:hover {
     padding: 40px;
   }
 }
+
+.contact h2 {
+  font-size: 30px;
+  color: #ededed;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.contact h3 {
+  color: #ededed;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contact form {
+  width: 600px;
+  text-align: center;
+}
+
+.input-box .input-field {
+  width: 48.5%;
+}
+
+form .input-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact .item {
+  width: 100%;
+  padding: 18px;
+  background-color: transparent;
+  border: 1px solid aqua;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #ededed;
+  margin: 12px 0;
+}
+
+form button {
+  color: #1f242d;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 12px 32px;
+  background-color: aqua;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 0 10px aqua;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #fff;
+}
