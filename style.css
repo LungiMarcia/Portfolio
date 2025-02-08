@@ -133,13 +133,14 @@ form button {
   font-weight: 600;
   margin-top: 20px;
   padding: 12px 32px;
-  background-color: aqua;
+  background-color: #fff;
   border: none;
   border-radius: 6px;
-  box-shadow: 0 0 10px aqua;
+  box-shadow: 0 0 10px #fff;
   cursor: pointer;
 }
 
 form button:hover {
-  background-color: #fff;
+  background-color: var(--secondary-color);
+  color: #fff;
 }
