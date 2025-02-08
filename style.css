@@ -106,9 +106,6 @@ footer a:hover {
 form {
   width: 600px;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .input-box .input-field {
@@ -119,7 +116,6 @@ form .input-box {
   display: flex;
   justify-content: space-between;
 }
-
 .item {
   width: 100%;
   padding: 18px;
@@ -131,7 +127,7 @@ form .input-box {
   margin: 12px 0;
 }
 
-submit-button {
+form button {
   color: #1f242d;
   font-size: 16px;
   font-weight: 600;
